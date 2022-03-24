@@ -1,11 +1,11 @@
 <template>
-  <div class="bg-gray-500">
-    
-  </div>
+    <div>
+
+    </div>
 </template>
 
 <script>
 export default {
-  name: 'Homepage'
+  layout: 'secretlayout',
 }
 </script>

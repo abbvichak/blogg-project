@@ -25,6 +25,7 @@ export default {
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [
+    { src: './scripts/load', mode: 'client' }
   ],
 
   // Auto import components: https://go.nuxtjs.dev/config-components
@@ -41,7 +42,6 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content',
   ],
-
   // Content module configuration: https://go.nuxtjs.dev/config-content
   content: {},
 

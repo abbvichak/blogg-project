@@ -15,24 +15,24 @@
             <div class="float-right">
                 <div class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
                     <div class="text-sm lg:flex-grow">
-                        <nuxt-link to="secrets" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 mr-4 text-gray-400">
-                        Secrets
-                        </nuxt-link>
-                        <nuxt-link to="/" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQautoplay=1" target="empty" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 mr-4 text-gray-400">
+                        You Thought?
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="empty" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
                         Home
-                        </nuxt-link>
-                        <nuxt-link to="reviews" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="empty" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
                         Reviews
-                        </nuxt-link>
-                        <a href="https://www.dannyduncan69.com/" target="empty" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="empty" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
                         Merch
                         </a>
-                        <nuxt-link to="about-me" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="empty" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
                         About Me
-                        </nuxt-link>
-                        <nuxt-link to="contact-me" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                        </a>
+                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="empty" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
                         Contact Me
-                        </nuxt-link>
+                        </a>
                     </div>
                 </div>
             </div>
