@@ -30,9 +30,6 @@
                         <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="empty" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
                         About Me
                         </a>
-                        <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="empty" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-                        Contact Me
-                        </a>
                     </div>
                 </div>
             </div>

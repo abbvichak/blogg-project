@@ -5,11 +5,9 @@
                 <svg class="fill-current h-8 w-8 mr-2" width="54" height="54" viewBox="0 0 54 54" ></svg>
                 <span class="font-semibold text-xl tracking-tight">Game Reviews</span>
             </div>
-            <div class="block lg:hidden">
-                <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-black hover:border-white">
-                    <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-                        <title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/>
-                    </svg>
+              <div class="block lg:hidden" id="menu">
+                <button class="flex items-center px-3 py-2 border rounded text-teal-200 border-teal-400 hover:text-white hover:border-white">
+                <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>Menu</title><path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"/></svg>
                 </button>
             </div>
             <div class="float-right">
@@ -24,14 +22,11 @@
                         <nuxt-link to="reviews" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
                         Reviews
                         </nuxt-link>
-                        <a href="https://www.dannyduncan69.com/" target="empty" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
+                        <nuxt-link to="/merch" target="empty" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
                         Merch
-                        </a>
+                        </nuxt-link>
                         <nuxt-link to="about-me" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
                         About Me
-                        </nuxt-link>
-                        <nuxt-link to="contact-me" class="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4">
-                        Contact Me
                         </nuxt-link>
                     </div>
                 </div>
@@ -42,6 +37,22 @@
 
 <script>
 export default {
+toggle() {
+
+    let open = document.getElementById("menu")
+
+    open.classList.toggle("hidden")
+
+},
+mounted() {
+
+    let recaptchaScript = document.createElement('script')
+
+    recaptchaScript.setAttribute('src', 'https://www.google.com/recaptcha/api.js')
+
+    document.head.appendChild(recaptchaScript)
+
+},
 
 }
 </script>
