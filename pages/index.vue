@@ -10,9 +10,9 @@
 export default {
   name: 'IndexPage',
   async asyncData({$content}) {
-    let review = await $content('reviews').limit(4).without(['body']).fetch()
+    let reviews = await $content('reviews').limit(4).without(['body']).fetch()
     return {
-      review
+      reviews
     }
   },
   methods: {
